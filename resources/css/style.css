@@ -137,6 +137,7 @@ header nav a {
 .portfolio-wrapper {
     width: 100%;
     background: center no-repeat url("../assets/styles/portfolio-background.png");
+    background-size: cover;
 }
 
 .app {
@@ -154,6 +155,12 @@ header nav a {
     margin-top: 15px;
     color: white;
     font-size: 16px;
+}
+
+/* About */
+
+.about {
+    padding-top: 60px;
 }
 
 /* Footer */
