@@ -70,7 +70,7 @@ table {
 /* Style */
 /* -------------------------------------------------- */
 
-/* Headline section */
+/* General */
 
 body {
     font-family: 'SF Pro Text', sans-serif;
@@ -87,25 +87,6 @@ header, section, footer {
     padding: 40px 80px;
 }
 
-footer {
-    text-align: center;   
-}
-
-header nav {
-    float: right;   
-}
-
-h1 {
-    font-family: 'SF Pro Display', sans-serif;
-    font-weight: 300;
-    font-size: 48px;
-    margin: 20px 0 20px 90px;
-}
-
-h1 .author-name {
-    font-weight: 600;
-}
-
 h1, p {
     line-height: 1.29em;
 }
@@ -114,6 +95,41 @@ p {
     margin-bottom: 35px;
     font-size: 24px;
     line-height: 1.29em;
+}
+
+a {
+    cursor: pointer;
+}
+
+/* Headline section */
+
+header {
+    height: 400px;
+    position: relative;
+}
+
+header nav {
+    float: right;   
+}
+
+header h1 {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+
+    height: 115px;
+    position: absolute;
+    top: 50%;
+    margin: -53px 0 20px 90px;
+}
+
+header h1 .author-name {
+    font-weight: 600;
+}
+
+header nav a {
+    display: inline-block;
+    margin-left: 15px;
 }
 
 /* Apps section */
@@ -138,4 +154,20 @@ p {
     margin-top: 15px;
     color: white;
     font-size: 16px;
+}
+
+/* Footer */
+
+footer {
+    padding-top: 0;
+    text-align: center;
+}
+
+footer nav {
+    margin-bottom: 35px;
+}
+
+footer p:last-child {
+    font-size: 16px;
+    margin-bottom: 0;
 }
