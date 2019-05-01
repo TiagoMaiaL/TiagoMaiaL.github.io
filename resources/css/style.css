@@ -93,12 +93,13 @@ h1, p {
 
 p {
     margin-bottom: 35px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.29em;
 }
 
 a {
     cursor: pointer;
+    transition: transform 0.4s;
 }
 
 /* Headline section */
@@ -109,7 +110,9 @@ header {
 }
 
 header nav {
-    float: right;   
+    float: right;
+    width: 230px;
+    text-align: right;
 }
 
 header h1 {
@@ -127,9 +130,13 @@ header h1 .author-name {
     font-weight: 600;
 }
 
-header nav a {
+.links a {
     display: inline-block;
     margin-left: 15px;
+}
+
+.links a:hover {
+    transform: scale(1.1);
 }
 
 /* Apps section */
@@ -177,4 +184,18 @@ footer nav {
 footer p:last-child {
     font-size: 16px;
     margin-bottom: 0;
+}
+
+.contact-call-action {
+    display: inline-block;
+}
+
+.contact-call-action:hover {
+    transform: scale(1.1);
+}
+
+.contact-call-action img {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
 }
