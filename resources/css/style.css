@@ -72,7 +72,7 @@ table {
 
 /* Headline section */
 
-html {
+body {
     font-family: 'SF Pro Text', sans-serif;
     font-weight: 400;
     background-color: #FEFEFE;
@@ -114,4 +114,28 @@ p {
     margin-bottom: 35px;
     font-size: 24px;
     line-height: 1.29em;
+}
+
+/* Apps section */
+
+.portfolio-wrapper {
+    width: 100%;
+    background: center no-repeat url("../assets/styles/portfolio-background.png");
+}
+
+.app {
+    text-align: center;
+}
+
+.app img {
+    display: block;
+    width: 129px;
+    height: 129px;
+    margin: 0 auto;
+}
+
+.app .app-name {
+    margin-top: 15px;
+    color: white;
+    font-size: 16px;
 }
