@@ -87,7 +87,7 @@ body {
     margin: 0 auto;
 }
 
-header .content, section, footer {
+header, section, footer {
     padding: 40px 80px;
 }
 
@@ -108,12 +108,8 @@ a {
 
 /* Headline section */
 
-header {
+.headline-wrapper {
     height: 400px;
-}
-
-header .content {
-    height: 100%;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -121,13 +117,13 @@ header .content {
     padding: 
 }
 
-header .content nav {
+.headline-wrapper .links {
     align-self: flex-start;
     width: 230px;
     text-align: right;
 }
 
-header .content h1 {
+.headline-wrapper h1 {
     align-self: center;
     justify-self: flex-end;
     font-family: 'SF Pro Display', sans-serif;
@@ -192,16 +188,16 @@ h1 .author-name {
 
 /* Footer */
 
-footer {
+.footer-action-call {
     padding-top: 0;
     text-align: center;
 }
 
-footer nav {
+.footer-action-call nav {
     margin-bottom: 35px;
 }
 
-footer p:last-child {
+.footer-action-call p:last-child {
     font-size: 16px;
     margin-bottom: 0;
 }
