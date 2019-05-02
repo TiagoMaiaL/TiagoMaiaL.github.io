@@ -72,6 +72,10 @@ table {
 
 /* General */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'SF Pro Text', sans-serif;
     font-weight: 400;
@@ -145,10 +149,20 @@ header h1 .author-name {
     width: 100%;
     background: center no-repeat url("../assets/styles/portfolio-background.png");
     background-size: cover;
+    background-color: #111;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
 }
 
 .app {
     text-align: center;
+    margin: 0 65px;
 }
 
 .app img {
@@ -160,6 +174,7 @@ header h1 .author-name {
 
 .app .app-name {
     margin-top: 15px;
+    margin-bottom: 0;
     color: white;
     font-size: 16px;
 }
