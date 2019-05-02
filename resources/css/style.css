@@ -87,7 +87,7 @@ body {
     margin: 0 auto;
 }
 
-header, section, footer {
+header .content, section, footer {
     padding: 40px 80px;
 }
 
@@ -110,27 +110,32 @@ a {
 
 header {
     height: 400px;
-    position: relative;
 }
 
-header nav {
-    float: right;
+header .content {
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 
+}
+
+header .content nav {
+    align-self: flex-start;
     width: 230px;
     text-align: right;
 }
 
-header h1 {
+header .content h1 {
+    align-self: center;
+    justify-self: flex-end;
     font-family: 'SF Pro Display', sans-serif;
     font-weight: 300;
     font-size: 48px;
-
-    height: 115px;
-    position: absolute;
-    top: 50%;
-    margin: -53px 0 20px 90px;
 }
 
-header h1 .author-name {
+h1 .author-name {
     font-weight: 600;
 }
 
