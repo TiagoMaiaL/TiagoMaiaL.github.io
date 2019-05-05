@@ -114,7 +114,6 @@ a {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    padding: 
 }
 
 .headline-wrapper .links {
@@ -148,7 +147,7 @@ h1 .author-name {
 
 .portfolio-wrapper {
     width: 100%;
-    background: center no-repeat url("../assets/styles/portfolio-background.png");
+    background: center no-repeat url("../assets/styles/portfolio-background.jpg");
     background-size: cover;
     background-color: #111;
 }
